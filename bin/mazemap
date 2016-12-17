@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require 'mazemap'
+
+filename = ARGV[0]
+
+if filename
+  Mazemap.new(filename).search
+else
+  puts <<-EOF
+      Please specify input file as command line parameter
+      USAGE: bundle exec mazemap /path/to/your/file
+      File should contain maze in described format(see tmp/maze.txt)
+    EOF
+end
