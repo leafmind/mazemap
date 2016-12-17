@@ -8,6 +8,14 @@ to execute a search
 
 https://rubygems.org/gems/mazemap
 
+#### Docs
+To generate the docs you need to checkout this repo  
+`https://github.com/leafmind/mazemap.git`  
+then  
+`bundle install`  
+then  
+`yard doc`  
+
 #### Usage
 Gemfile  
 `gem 'mazemap', github: 'leafmind/mazemap'`  
