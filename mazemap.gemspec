@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.version     = Mazemap::VERSION
 
-  spec.homepage    = 'http://rubygems.org/gems/mazemap'
   spec.license     = 'MIT'
 
   spec.add_dependency 'nmatrix'
