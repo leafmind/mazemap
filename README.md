@@ -1,5 +1,5 @@
 ## Mazemap Pathfinder
-Mazemap allows you to search for the shortest path in the given 2D map(check tmp/maze.txt for examples)  
+Mazemap allows you to search for the shortest path in the given 2D map(check spec/fixtures/files/maze.txt for examples)  
 
 Mazemap has built-in command line tool  
 So after the gem installation you can just type  
