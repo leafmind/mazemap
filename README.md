@@ -6,6 +6,8 @@ So after the gem installation you can just type
 `bundle exec mazemap maze.txt`  
 to execute a search  
 
+https://rubygems.org/gems/mazemap
+
 #### Usage
 Gemfile  
 `gem 'mazemap', github: 'leafmind/mazemap'`  
@@ -19,6 +21,12 @@ Also you can use mazemap command line tool:
 `bundle exec mazemap maze.txt`  
 
 #### Maze file format example
+
+`* - obstacle`  
+`(space)  - free cell`  
+`A - start cell`  
+`B - finish cell`  
+
 
 ```
 ******************************************
