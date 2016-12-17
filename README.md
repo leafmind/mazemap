@@ -10,7 +10,8 @@ https://rubygems.org/gems/mazemap
 
 #### Docs
 To generate the docs you need to checkout this repo  
-`https://github.com/leafmind/mazemap.git`  
+`git clone https://github.com/leafmind/mazemap.git`  
+`cd mazemap`
 then  
 `bundle install`  
 then  
