@@ -6,7 +6,7 @@ require 'mazemap'
 filename = ARGV[0]
 
 if filename
-  Mazemap.new(filename).search
+  puts Mazemap.read_and_search(filename).inspect
 else
   puts <<-EOF
       Please specify input file as command line parameter

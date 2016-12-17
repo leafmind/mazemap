@@ -6,7 +6,7 @@ describe Mazemap do
   end
 
   it "outputs a solution" do
-  	solution = Mazemap.read_and_search(file_fixture("maze.txt"))
+    solution = Mazemap.read_and_search(file_fixture("maze.txt"))
     expect(solution).to be_an_instance_of(Array)
   end
 end
